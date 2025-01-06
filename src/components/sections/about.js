@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['C#'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,12 +135,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I'm Bartek, and I enjoy learning new technologies, solving complex problems,
+              and playing chess. My passion for web development grew over time as I tackled new
+              challenges, constantly improving my skills along the way. I find joy in creating
+              innovative solutions and continuously exploring how things work behind the scenes.
             </p>
-
+            {/* 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
@@ -161,7 +161,7 @@ const About = () => {
               &amp; React.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve been working with recently:</p> */}
           </div>
 
           <ul className="skills-list">
