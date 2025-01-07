@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Fungi Growth Simulator'
 cover: './fungi.png'
 # external: 'https://chess-tournament-tracker.bartoszwarchol.pl/'

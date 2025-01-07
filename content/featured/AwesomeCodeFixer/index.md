@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Awesome Code Fixer'
 cover: './TODO.jpg'
 # external: 'https://chess-tournament-tracker.bartoszwarchol.pl/'
