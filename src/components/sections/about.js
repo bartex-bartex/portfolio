@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#'];
+  const skills = ['C#', 'Python', 'PostgreSQL', 'SQL Server'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +135,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Bartek, and I enjoy learning new technologies, solving complex problems,
-              and playing chess. My passion for web development grew over time as I tackled new
-              challenges, constantly improving my skills along the way. I find joy in creating
-              innovative solutions and continuously exploring how things work behind the scenes.
-            </p>
-            {/* 
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Hello! I'm Bartek, I am 3rd year student of Computer Science and Inteligent System on
+              AGH University of Krakow. I enjoy learning new technologies and developing useful
+              software.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I am retired semi-professional chess player, who has been playing chess for over 8
+              years. I am four-time finalist in the Polish Junior Chess Championships with over 30
+              trophies and 20 medals collected.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p> */}
+            <p>
+              I really enjoy playing logical puzzles, especially those that require lateral
+              thinking. Currently working in a team of 3 on beating{' '}
+              <a href="https://zest.riddlehell.net/">Zest Riddle</a> - highly challenging
+              internet-based logic games considered some of the hardest puzzles available online.
+              Deeply considering idea of developing our own internet puzzle.
+            </p>
           </div>
 
           <ul className="skills-list">
