@@ -1,1 +1,1 @@
-web: npm install -g gatsby-cli && yarn && npm run build && npm run serve
+web: npm run serve
