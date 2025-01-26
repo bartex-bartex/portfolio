@@ -135,9 +135,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Bartek, I am 3rd year student of Computer Science and Inteligent System on
-              AGH University of Krakow. I am passionate about backend engineering and artificial
-              intelligence.
+              Hello! I'm Bartek, I am 3rd year student in Computer Science and Intelligent Systems
+              at AGH University of Science and Technology in Cracow. I am passionate about backend
+              engineering and artificial intelligence.
             </p>
 
             <p>
