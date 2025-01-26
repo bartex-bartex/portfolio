@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#', 'Python', 'PostgreSQL', 'SQL Server'];
+  const skills = ['Java', 'C#', 'Python', 'git', 'Docker', 'PostgreSQL', 'SQL Server', 'Heroku'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,8 +136,8 @@ const About = () => {
           <div>
             <p>
               Hello! I'm Bartek, I am 3rd year student of Computer Science and Inteligent System on
-              AGH University of Krakow. I enjoy learning new technologies and developing useful
-              software.
+              AGH University of Krakow. I am passionate about backend engineering and artificial
+              intelligence.
             </p>
 
             <p>
