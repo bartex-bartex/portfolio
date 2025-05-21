@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Awesome Code Fixer'
-cover: './TODO.jpg'
+cover: './todo.png'
 # external: 'https://chess-tournament-tracker.bartoszwarchol.pl/'
 tech:
   - C#
